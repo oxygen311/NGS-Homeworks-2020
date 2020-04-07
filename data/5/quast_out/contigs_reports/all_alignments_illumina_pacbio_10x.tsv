@@ -1,0 +1,40 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+730031	1096806	1	366667	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.92		True
+local misassembly
+1096626	1298721	366668	568763	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.99		True
+relocation, inconsistency = 988219
+2286941	2288135	569958	568764	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	100.0		True
+relocation, inconsistency = 415877
+1298718	1871063	569959	1142303	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.99		True
+relocation, inconsistency = 105463
+1976527	1977294	1142304	1143071	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	100.0		True
+relocation, inconsistency = -106240
+1871055	2660514	1143072	1932534	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.99		True
+local misassembly
+2660606	2727226	1932535	1999155	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.84		True
+fake: scaffold gap size wrong estimation (local)
+2727624	3706489	1999467	2978332	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.99		True
+local misassembly
+3706658	3762337	2978333	3034012	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	100.0		True
+fake: scaffold gap size wrong estimation (local)
+3764616	3944733	3036291	3216408	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.98		True
+fake: scaffold gap size wrong estimation (local)
+3944918	4294345	3216593	3566019	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.98		True
+local misassembly
+4294457	4639675	3566020	3911303	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.98		True
+fake: not a misassembly [linear representation of circular genome]
+1	228766	3911304	4140068	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.99		True
+fake: scaffold gap size wrong estimation (local)
+228952	257907	4140254	4169209	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.98		True
+relocation, inconsistency = -238112
+19796	20563	4169210	4169977	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	100.0		True
+relocation, inconsistency = 237336
+257900	339154	4169978	4251231	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.97		True
+local misassembly
+339340	356699	4251232	4268591	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	99.95		True
+local misassembly
+356900	728608	4268592	4640301	gi_48994873_gb_U00096.2_	NODE_1_length_4640301_cov_44.872128	100.0		True
+CONTIG	NODE_1_length_4640301_cov_44.872128	4640301	misassembled
+3763856	3764658	803	1	gi_48994873_gb_U00096.2_	NODE_2_length_803_cov_50.537433	100.0		True
+CONTIG	NODE_2_length_803_cov_50.537433	803	correct
+CONTIG	NODE_3_length_542_cov_1.014374	542	unaligned

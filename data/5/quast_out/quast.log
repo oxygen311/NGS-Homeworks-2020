@@ -1,0 +1,266 @@
+../../tools/quast-5.0.2/quast.py -o quast_out -r reference.fasta pacbio_10x.fasta pacbio_20x.fasta pacbio_40x.fasta pacbio_80x.fasta illumina.fasta illumina_pacbio_10x.fasta illumina_pacbio_20x.fasta illumina_pacbio_40x.fasta illumina_pacbio_80x.fasta
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Darwin-19.4.0-x86_64-i386-64bit (macosx)
+  Python version: 3.7.4
+  CPUs number: 4
+
+Started: 2020-04-07 15:00:33
+
+Logging to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /Users/alexey/PycharmProjects/NGS-Homeworks/data/5
+Main parameters: 
+  MODE: default, threads: 1, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  1  pacbio_10x.fasta ==> pacbio_10x
+  2  pacbio_20x.fasta ==> pacbio_20x
+  3  pacbio_40x.fasta ==> pacbio_40x
+  4  pacbio_80x.fasta ==> pacbio_80x
+  5  illumina.fasta ==> illumina
+  6  illumina_pacbio_10x.fasta ==> illumina_pacbio_10x
+  7  illumina_pacbio_20x.fasta ==> illumina_pacbio_20x
+  8  illumina_pacbio_40x.fasta ==> illumina_pacbio_40x
+  9  illumina_pacbio_80x.fasta ==> illumina_pacbio_80x
+
+2020-04-07 15:00:37
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 4639675, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  pacbio_10x
+    2  pacbio_20x
+    3  pacbio_40x
+    4  pacbio_80x
+    5  illumina
+    6  illumina_pacbio_10x
+    7  illumina_pacbio_20x
+    8  illumina_pacbio_40x
+    9  illumina_pacbio_80x
+  Calculating N50 and L50...
+    1  pacbio_10x, N50 = 27922, L50 = 40, Total length = 3711522, GC % = 50.55, # N's per 100 kbp =  0.00
+    2  pacbio_20x, N50 = 272518, L50 = 5, Total length = 4599531, GC % = 50.75, # N's per 100 kbp =  0.00
+    3  pacbio_40x, N50 = 4651851, L50 = 1, Total length = 4660281, GC % = 50.77, # N's per 100 kbp =  0.00
+    4  pacbio_80x, N50 = 4653172, L50 = 1, Total length = 4653172, GC % = 50.79, # N's per 100 kbp =  0.00
+    5  illumina, N50 = 134691, L50 = 12, Total length = 4556248, GC % = 50.74, # N's per 100 kbp =  21.95
+    6  illumina_pacbio_10x, N50 = 4640301, L50 = 1, Total length = 4641646, GC % = 50.78, # N's per 100 kbp =  63.94
+    7  illumina_pacbio_20x, N50 = 4636213, L50 = 1, Total length = 4640150, GC % = 50.78, # N's per 100 kbp =  21.25
+    8  illumina_pacbio_40x, N50 = 4641733, L50 = 1, Total length = 4642275, GC % = 50.79, # N's per 100 kbp =  21.24
+    9  illumina_pacbio_80x, N50 = 4641733, L50 = 1, Total length = 4642275, GC % = 50.79, # N's per 100 kbp =  21.24
+  Drawing Nx plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/GC_content_plot.pdf
+  Drawing pacbio_10x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/pacbio_10x_GC_content_plot.pdf
+  Drawing pacbio_20x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/pacbio_20x_GC_content_plot.pdf
+  Drawing pacbio_40x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/pacbio_40x_GC_content_plot.pdf
+  Drawing pacbio_80x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/pacbio_80x_GC_content_plot.pdf
+  Drawing illumina GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_GC_content_plot.pdf
+  Drawing illumina_pacbio_10x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_10x_GC_content_plot.pdf
+  Drawing illumina_pacbio_20x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_20x_GC_content_plot.pdf
+  Drawing illumina_pacbio_40x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_40x_GC_content_plot.pdf
+  Drawing illumina_pacbio_80x GC content plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_80x_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/coverage_histogram.pdf
+  Drawing illumina coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_coverage_histogram.pdf
+  Drawing illumina_pacbio_10x coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_10x_coverage_histogram.pdf
+  Drawing illumina_pacbio_20x coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_20x_coverage_histogram.pdf
+  Drawing illumina_pacbio_40x coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_40x_coverage_histogram.pdf
+  Drawing illumina_pacbio_80x coverage histogram (bin size: 1x)...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/basic_stats/illumina_pacbio_80x_coverage_histogram.pdf
+Done.
+
+2020-04-07 15:00:46
+Running Contig analyzer...
+  1  pacbio_10x
+  1  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_pacbio_10x.stdout and contigs_report_pacbio_10x.stderr...
+  1  Aligning contigs to the reference
+  1  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/pacbio_10x.fasta \
+     > quast_out/contigs_reports/minimap_output/pacbio_10x.coords_tmp 2>> quast_out/contigs_reports/contigs_report_pacbio_10x.stderr
+  1  Analysis is finished.
+
+  2  pacbio_20x
+  2  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_pacbio_20x.stdout and contigs_report_pacbio_20x.stderr...
+  2  Aligning contigs to the reference
+  2  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/pacbio_20x.fasta \
+     > quast_out/contigs_reports/minimap_output/pacbio_20x.coords_tmp 2>> quast_out/contigs_reports/contigs_report_pacbio_20x.stderr
+  2  Analysis is finished.
+
+  3  pacbio_40x
+  3  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_pacbio_40x.stdout and contigs_report_pacbio_40x.stderr...
+  3  Aligning contigs to the reference
+  3  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/pacbio_40x.fasta \
+     > quast_out/contigs_reports/minimap_output/pacbio_40x.coords_tmp 2>> quast_out/contigs_reports/contigs_report_pacbio_40x.stderr
+  3  Analysis is finished.
+
+  4  pacbio_80x
+  4  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_pacbio_80x.stdout and contigs_report_pacbio_80x.stderr...
+  4  Aligning contigs to the reference
+  4  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/pacbio_80x.fasta \
+     > quast_out/contigs_reports/minimap_output/pacbio_80x.coords_tmp 2>> quast_out/contigs_reports/contigs_report_pacbio_80x.stderr
+  4  Analysis is finished.
+
+  5  illumina
+  5  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_illumina.stdout and contigs_report_illumina.stderr...
+  5  Aligning contigs to the reference
+  5  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/illumina.fasta \
+     > quast_out/contigs_reports/minimap_output/illumina.coords_tmp 2>> quast_out/contigs_reports/contigs_report_illumina.stderr
+  5  Analysis is finished.
+
+  6  illumina_pacbio_10x
+  6  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_illumina_pacbio_10x.stdout and contigs_report_illumina_pacbio_10x.stderr...
+  6  Aligning contigs to the reference
+  6  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/illumina_pacbio_10x.fasta \
+     > quast_out/contigs_reports/minimap_output/illumina_pacbio_10x.coords_tmp 2>> \
+     quast_out/contigs_reports/contigs_report_illumina_pacbio_10x.stderr
+  6  Analysis is finished.
+
+  7  illumina_pacbio_20x
+  7  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_illumina_pacbio_20x.stdout and contigs_report_illumina_pacbio_20x.stderr...
+  7  Aligning contigs to the reference
+  7  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/illumina_pacbio_20x.fasta \
+     > quast_out/contigs_reports/minimap_output/illumina_pacbio_20x.coords_tmp 2>> \
+     quast_out/contigs_reports/contigs_report_illumina_pacbio_20x.stderr
+  7  Analysis is finished.
+
+  8  illumina_pacbio_40x
+  8  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_illumina_pacbio_40x.stdout and contigs_report_illumina_pacbio_40x.stderr...
+  8  Aligning contigs to the reference
+  8  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/illumina_pacbio_40x.fasta \
+     > quast_out/contigs_reports/minimap_output/illumina_pacbio_40x.coords_tmp 2>> \
+     quast_out/contigs_reports/contigs_report_illumina_pacbio_40x.stderr
+  8  Analysis is finished.
+
+  9  illumina_pacbio_80x
+  9  Logging to files /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/contigs_report_illumina_pacbio_80x.stdout and contigs_report_illumina_pacbio_80x.stderr...
+  9  Aligning contigs to the reference
+  9  /Users/alexey/anaconda3/bin/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r \
+     85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 1 quast_out/quast_corrected_input/reference.fasta quast_out/quast_corrected_input/illumina_pacbio_80x.fasta \
+     > quast_out/contigs_reports/minimap_output/illumina_pacbio_80x.coords_tmp 2>> \
+     quast_out/contigs_reports/contigs_report_illumina_pacbio_80x.stderr
+  9  Analysis is finished.
+
+  Creating total report...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2020-04-07 15:01:18
+Running NA-NGA calculation...
+  1  pacbio_10x, Largest alignment = 87550, NA50 = 26796, NGA50 = 20241, LA50 = 41, LGA50 = 60
+  2  pacbio_20x, Largest alignment = 484372, NA50 = 200681, NGA50 = 200681, LA50 = 7, LGA50 = 7
+  3  pacbio_40x, Largest alignment = 2161944, NA50 = 948576, NGA50 = 948576, LA50 = 2, LGA50 = 2
+  4  pacbio_80x, Largest alignment = 2981897, NA50 = 2981897, NGA50 = 2981897, LA50 = 1, LGA50 = 1
+  5  illumina, Largest alignment = 285326, NA50 = 134691, NGA50 = 134691, LA50 = 12, LGA50 = 12
+  6  illumina_pacbio_10x, Largest alignment = 3023180, NA50 = 3023180, NGA50 = 3023180, LA50 = 1, LGA50 = 1
+  7  illumina_pacbio_20x, Largest alignment = 3023576, NA50 = 3023576, NGA50 = 3023576, LA50 = 1, LGA50 = 1
+  8  illumina_pacbio_40x, Largest alignment = 3023577, NA50 = 3023577, NGA50 = 3023577, LA50 = 1, LGA50 = 1
+  9  illumina_pacbio_80x, Largest alignment = 3023577, NA50 = 3023577, NGA50 = 3023577, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/aligned_stats/NGAx_plot.pdf
+Done.
+
+2020-04-07 15:01:22
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  pacbio_10x
+  1  Analysis is finished.
+  2  pacbio_20x
+  2  Analysis is finished.
+  3  pacbio_40x
+  3  Analysis is finished.
+  4  pacbio_80x
+  4  Analysis is finished.
+  5  illumina
+  5  Analysis is finished.
+  6  illumina_pacbio_10x
+  6  Analysis is finished.
+  7  illumina_pacbio_20x
+  7  Analysis is finished.
+  8  illumina_pacbio_40x
+  8  Analysis is finished.
+  9  illumina_pacbio_80x
+  9  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2020-04-07 15:01:36
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2020-04-07 15:01:41
+RESULTS:
+  Text versions of total report are saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/report.html
+  PDF version (tables and plots) is saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/report.pdf
+  Icarus (contig browser) is saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/icarus.html
+  Log is saved to /Users/alexey/PycharmProjects/NGS-Homeworks/data/5/quast_out/quast.log
+
+Finished: 2020-04-07 15:01:41
+Elapsed time: 0:01:08.215456
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

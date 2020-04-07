@@ -1,0 +1,21 @@
+Assembly	pacbio_10x	pacbio_20x	pacbio_40x	pacbio_80x	illumina	illumina_pacbio_10x	illumina_pacbio_20x	illumina_pacbio_40x	illumina_pacbio_80x
+# misassemblies	9	9	8	8	0	6	6	6	6
+  # contig misassemblies	9	9	8	8	0	6	6	6	6
+    # c. relocations	6	7	6	6	0	6	6	6	6
+    # c. translocations	0	0	0	0	0	0	0	0	0
+    # c. inversions	3	2	2	2	0	0	0	0	0
+  # scaffold misassemblies	0	0	0	0	0	0	0	0	0
+    # s. relocations	0	0	0	0	0	0	0	0	0
+    # s. translocations	0	0	0	0	0	0	0	0	0
+    # s. inversions	0	0	0	0	0	0	0	0	0
+# misassembled contigs	5	4	1	1	0	1	1	1	1
+Misassembled contigs length	125937	1108020	4651851	4653172	0	4640301	4636213	4641733	4641733
+# local misassemblies	1	2	2	2	6	6	5	5	5
+# scaffold gap ext. mis.	0	0	0	0	0	0	0	0	0
+# scaffold gap loc. mis.	0	0	0	0	6	4	1	1	1
+# unaligned mis. contigs	0	0	0	0	0	0	0	0	0
+# mismatches	1174	199	52	15	49	473	424	446	448
+# indels	20307	6452	1363	457	18	65	34	41	41
+    # indels (<= 5 bp)	20303	6448	1360	457	14	58	31	38	38
+    # indels (> 5 bp)	4	4	3	0	4	7	3	3	3
+Indels length	21196	6677	1404	465	96	298	172	183	183
