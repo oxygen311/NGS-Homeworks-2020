@@ -1,0 +1,117 @@
+-k flag not specified, so building with default 15-mers
+-j flag not specified, so building with default 8-mers
+Sorting chromosomes in chrom order.  To turn off or sort other ways, use the -s flag.
+Creating files in directory ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper
+Running "/Users/alexey/anaconda3/bin/fa_coords"       -o "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords" -f "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.sources"
+Running "/Users/alexey/anaconda3/bin/gmap_process"   -c "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords" -f "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.sources" | "/Users/alexey/anaconda3/bin/gmapindex"  -d ref.upper -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -A 
+Reading coordinates from file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords
+Logging contig I at I:1..230218 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig II at II:1..813184 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig III at III:1..316620 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig IV at IV:1..1531933 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig IX at IX:1..439888 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig Mito at Mito:1..85779 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig V at V:1..576874 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig VI at VI:1..270161 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig VII at VII:1..1090940 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig VIII at VIII:1..562643 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig X at X:1..745751 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XI at XI:1..666816 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XII at XII:1..1078177 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XIII at XIII:1..924431 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XIV at XIV:1..784333 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XV at XV:1..1091291 in genome ref.upper
+ => primary (linear) chromosome
+Logging contig XVI at XVI:1..948066 in genome ref.upper
+ => primary (linear) chromosome
+Total genomic length = 12157105 bp
+Have a total of 17 chromosomes
+Writing chromosome file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.chromosome
+Chromosome X has universal coordinates 1..745751
+Chromosome I has universal coordinates 745752..975969
+Chromosome II has universal coordinates 975970..1789153
+Chromosome III has universal coordinates 1789154..2105773
+Chromosome IV has universal coordinates 2105774..3637706
+Chromosome IX has universal coordinates 3637707..4077594
+Chromosome Mito has universal coordinates 4077595..4163373
+Chromosome V has universal coordinates 4163374..4740247
+Chromosome VI has universal coordinates 4740248..5010408
+Chromosome VII has universal coordinates 5010409..6101348
+Chromosome VIII has universal coordinates 6101349..6663991
+Chromosome XI has universal coordinates 6663992..7330807
+Chromosome XII has universal coordinates 7330808..8408984
+Chromosome XIII has universal coordinates 8408985..9333415
+Chromosome XIV has universal coordinates 9333416..10117748
+Chromosome XV has universal coordinates 10117749..11209039
+Chromosome XVI has universal coordinates 11209040..12157105
+Writing chromosome IIT file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.chromosome.iit
+Writing IIT file header information...coordinates require 4 bytes each...done
+Processing null division/chromosome...sorting...writing...done (17 intervals)
+Writing IIT file footer information...done
+Writing IIT file header information...coordinates require 4 bytes each...done
+Processing null division/chromosome...sorting...writing...done (17 intervals)
+Writing IIT file footer information...done
+Running "/Users/alexey/anaconda3/bin/gmap_process"   -c "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords" -f "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.sources" | "/Users/alexey/anaconda3/bin/gmapindex"  -d ref.upper -F "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -G
+Genome length is 12157105 nt
+Trying to allocate 1139732*4 bytes of memory...succeeded.  Building genome in memory.
+Reading coordinates from file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords
+Writing contig I to universal coordinates 745752..975969
+Writing contig II to universal coordinates 975970..1789153
+Writing contig III to universal coordinates 1789154..2105773
+Writing contig IV to universal coordinates 2105774..3637706
+Writing contig IX to universal coordinates 3637707..4077594
+Writing contig Mito to universal coordinates 4077595..4163373
+Writing contig V to universal coordinates 4163374..4740247
+Writing contig VI to universal coordinates 4740248..5010408
+Writing contig VII to universal coordinates 5010409..6101348
+Writing contig VIII to universal coordinates 6101349..6663991
+Writing contig X to universal coordinates 1..745751
+Writing contig XI to universal coordinates 6663992..7330807
+Writing contig XII to universal coordinates 7330808..8408984
+Writing contig XIII to universal coordinates 8408985..9333415
+Writing contig XIV to universal coordinates 9333416..10117748
+Writing contig XV to universal coordinates 10117749..11209039
+Writing contig XVI to universal coordinates 11209040..12157105
+A total of 0 non-ACGTNX characters were seen in the genome.
+Running cat "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomecomp" | "/Users/alexey/anaconda3/bin/gmapindex" -d ref.upper -U > "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomebits128"
+Running cat "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomecomp" | "/Users/alexey/anaconda3/bin/gmapindex" -k 15 -q 3  -d ref.upper -F "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -N
+Counting positions in genome ref.upper (15 bp every 3 bp), position 0
+Number of offsets: 4052294 => pages file not required
+Running "/Users/alexey/anaconda3/bin/gmapindex" -k 15 -q 3  -d ref.upper -F "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -O  "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomecomp"
+Offset compression types: bitpack64
+Allocating 16777216*1 bytes for packsizes
+Allocating 16777216*8 bytes for bitpacks
+Indexing offsets of oligomers in genome ref.upper (15 bp every 3 bp), position 0
+Writing 1073741825 offsets compressed via bitpack64...done
+Running "/Users/alexey/anaconda3/bin/gmapindex" -k 15 -q 3  -d ref.upper -F "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -P "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomecomp"
+Looking for index files in directory ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper
+  Pointers file is ref.upper.ref153offsets64meta
+  Offsets file is ref.upper.ref153offsets64strm
+  Positions file is ref.upper.ref153positions
+Expanding offsetsstrm into counters...done
+Allocating 49174176 bytes for counterstrm
+Trying to allocate 4052294*4 bytes of memory for positions...succeeded.  Building positions in memory.
+Indexing positions of oligomers in genome ref.upper (15 bp every 3 bp), position 0
+Writing 4052294 genomic positions to file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.ref153positions ...
+done
+Running "/Users/alexey/anaconda3/bin/gmapindex" -j 8  -d ref.upper -F "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -D "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper" -Q  "../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper/ref.upper.genomecomp"
+Offset compression types: bitpack64
+Allocating 1024*1 bytes for packsizes
+Allocating 1024*8 bytes for bitpacks
+Indexing offsets/positions of oligomers in genome ref.upper (8 bp every 1 bp), position 0
+Done

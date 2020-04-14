@@ -1,0 +1,9 @@
+
+
+Building a new DB, current time: 04/14/2020 18:48:51
+New DB name:   /Users/alexey/PycharmProjects/NGS-Homeworks/tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.isoforms
+New DB title:  ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.isoforms.fa
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 7126 sequences in 0.276426 seconds.

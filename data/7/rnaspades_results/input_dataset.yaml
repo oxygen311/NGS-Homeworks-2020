@@ -1,0 +1,6 @@
+- "left reads":
+  - "/scratch/azabelkin/NGS/7/SRR453566_1.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/scratch/azabelkin/NGS/7/SRR453566_2.fastq.gz"
+  "type": "paired-end"

@@ -1,0 +1,17 @@
+Opening file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.fa
+  Processed short contigs (<1000000 nt): ...
+  Contig IV: concatenated at chromosome end: IV:1..1531933 (length = 1531933 nt)
+  Processed short contigs (<1000000 nt): ....
+  Contig VII: concatenated at chromosome end: VII:1..1090940 (length = 1090940 nt)
+  Processed short contigs (<1000000 nt): ...
+  Contig XII: concatenated at chromosome end: XII:1..1078177 (length = 1078177 nt)
+  Processed short contigs (<1000000 nt): ..
+  Contig XV: concatenated at chromosome end: XV:1..1091291 (length = 1091291 nt)
+  Processed short contigs (<1000000 nt): .
+============================================================
+Contig mapping information has been written to file ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.coords.
+You should look at this file, and edit it if necessary
+If everything is okay, you should proceed by running
+    make gmapdb
+============================================================
+No alternate scaffolds observed

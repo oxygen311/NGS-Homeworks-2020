@@ -1,0 +1,8 @@
+transcripts:
+unaligned=578 aligned=5933 alignments=5928 
+unique aligned=5800 multiple aligned=59 
+2	52
+3	4
+4	3
+
+

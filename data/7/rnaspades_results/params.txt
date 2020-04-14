@@ -1,0 +1,36 @@
+Command line: /scratch/azabelkin/miniprojects/project3/SPAdes-3.13.0-Linux/bin/rnaspades.py	-1	/scratch/azabelkin/NGS/7/SRR453566_1.fastq.gz	-2	/scratch/azabelkin/NGS/7/SRR453566_2.fastq.gz	-o	/scratch/azabelkin/NGS/7/rnaspades_results	-t	16	-m	16	
+
+System information:
+  SPAdes version: 3.13.0
+  Python version: 3.7.1
+  OS: Linux-4.15.0-50-generic-x86_64-with-debian-buster-sid
+
+Output dir: /scratch/azabelkin/NGS/7/rnaspades_results
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  RNA-seq mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/scratch/azabelkin/NGS/7/SRR453566_1.fastq.gz']
+      right reads: ['/scratch/azabelkin/NGS/7/SRR453566_2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: auto
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /scratch/azabelkin/NGS/7/rnaspades_results/tmp
+  Threads: 16
+  Memory limit (in Gb): 16
+

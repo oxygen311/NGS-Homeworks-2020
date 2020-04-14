@@ -1,0 +1,23 @@
+METRICS/TRANSCRIPTS                                    transcripts              
+ == ALIGNMENT METRICS (calculated with reference genome but without gene database) == 
+Transcripts                                            6511                     
+
+Aligned                                                5933                     
+
+Uniquely aligned                                       5800                     
+Multiply aligned                                       59                       
+Misassembly candidates reported by GMAP (or BLAT)      73                       
+
+Unaligned                                              578                      
+
+ == ALIGNMENT METRICS FOR NON-MISASSEMBLED TRANSCRIPTS == 
+Average aligned fraction                               0.987                    
+Average alignment length                               1774.548                 
+
+Average blocks per alignment                           1.376                    
+Average block length                                   1289.631                 
+
+Average mismatches per transcript                      3.834                    
+
+NA50                                                   2847                     
+

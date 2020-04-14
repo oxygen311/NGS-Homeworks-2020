@@ -1,0 +1,8 @@
+METRICS/TRANSCRIPTS                                    transcripts              
+ == ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS (calculated with reference genome or with gene database) == 
+Transcripts                                            6511                     
+
+Misassembly candidates reported by GMAP (or BLAT)      73                       
+Misassembly candidates reported by BLASTN              1634                     
+Misassemblies                                          48                       
+

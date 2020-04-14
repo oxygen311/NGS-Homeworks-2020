@@ -1,0 +1,247 @@
+/Users/alexey/PycharmProjects/NGS-Homeworks/tools/rnaQUAST-2.0.1/rnaQUAST.py --transcripts rnaspades_results/transcripts.fasta --reference ref.fa --gtf genes.gtf
+
+rnaQUAST version: 2.0.1
+
+System information:
+  OS: Darwin-19.4.0-x86_64-i386-64bit (macosx)
+  Python version: 3.7.4
+  CPUs number: 4
+
+External tools:
+  matplotlib version: 3.1.1
+  joblib version: 0.13.2
+  gffutils version: 0.10.1
+  blastn version: 2.6.0+
+  makeblastdb version: 2.6.0+
+  gmap version: 2019-09-12
+
+Started: 2020-04-14 18:45:44
+
+Logging to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/rnaQUAST.log
+
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+2020-04-14 18:45:44
+Getting reference...
+Done.
+Using non strand specific transcripts...
+
+2020-04-14 18:45:45
+Creating sqlite3 db by gffutils...
+  saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/genes.db.
+
+2020-04-14 18:46:28
+Loading sqlite3 db by gffutils from ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/genes.db to memory...
+Done.
+
+2020-04-14 18:46:29
+Getting GENE DATABASE metrics...
+Done.
+
+Sets maximum intron size equal 2583. Default is 1500000 bp.
+
+
+2020-04-14 18:46:32
+Sorting exons attributes...
+  Sorted in I.
+  Sorted in II.
+  Sorted in III.
+  Sorted in IV.
+  Sorted in IX.
+  Sorted in Mito.
+  Sorted in V.
+  Sorted in VI.
+  Sorted in VII.
+  Sorted in VIII.
+  Sorted in X.
+  Sorted in XI.
+  Sorted in XII.
+  Sorted in XIII.
+  Sorted in XIV.
+  Sorted in XV.
+  Sorted in XVI.
+Done.
+
+  2020-04-14 18:46:33
+  Getting transcripts from /Users/alexey/PycharmProjects/NGS-Homeworks/data/7/rnaspades_results/transcripts.fasta...
+  Done.
+
+2020-04-14 18:46:33
+Getting upper case fasta...
+  saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper.fa
+
+2020-04-14 18:46:33
+Creating genome index by gmap_build...
+  logs can be found in ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/gmap_build.out.log and ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/gmap_build.err.log.
+  saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/ref.upper
+
+GMAP_BUILD TIME: 0:00:33.035966
+
+
+
+2020-04-14 18:47:06
+Aligning transcripts to ref.upper...
+  log can be found in ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/gmap.transcripts.err.log.
+  saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.psl
+
+GMAP TIME: 0:01:39.528539
+
+
+
+2020-04-14 18:48:46
+Extracting isoforms sequences...
+Done.
+
+2020-04-14 18:48:51
+Getting blast database for ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.isoforms.fa
+  saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.isoforms
+
+2020-04-14 18:48:51
+Transcripts:
+  /Users/alexey/PycharmProjects/NGS-Homeworks/data/7/rnaspades_results/transcripts.fasta -> transcripts
+Reference:
+  /Users/alexey/PycharmProjects/NGS-Homeworks/data/7/ref.fa
+Gene coordinates:
+  ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.cleared.gtf
+
+
+Processing transcripts from /Users/alexey/PycharmProjects/NGS-Homeworks/data/7/rnaspades_results/transcripts.fasta:
+
+  2020-04-14 18:48:51
+  Aligning /Users/alexey/PycharmProjects/NGS-Homeworks/data/7/rnaspades_results/transcripts.fasta to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/genes.isoforms by blastn...
+    saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.blast6
+    log can be found in ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/transcripts.blastn.log.
+
+  2020-04-14 18:48:57
+  Getting BLAST alignments report files...
+    saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.assembled.best.blast6 (contains best alignments for assembled transcripts)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.paralogs.best.blast6 (contains best alignments for assembled transcripts having paralogs)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.misassembled.best.blast6 (contains best alignments for misassembled transcripts)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.misassembled.blast6 (contains all alignments for misassembled transcripts)
+
+  2020-04-14 18:48:57
+  Getting GMAP (or BLAT) alignments report files...
+    saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.assembled.best.psl (contains best alignments for assembled transcripts)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.uniquely.psl (contains best alignments for uniquely aligned assembled transcripts)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.paralogs.best.psl (contains best alignments for assembled transcripts having paralogs)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.misassembled.best.psl (contains best alignments for misassembled transcripts)
+             ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/tmp/transcripts.misassembled.psl (contains all alignments for misassembled transcripts)
+
+  2020-04-14 18:49:13
+  Processing assembled aligned transcripts...
+  Done.
+
+  2020-04-14 18:49:25
+  Processing misassembled aligned transcripts...
+  Done.
+
+  2020-04-14 18:49:25
+  Processing misassembled aligned transcripts...
+  Done.
+
+  2020-04-14 18:49:25
+  Getting BASIC TRANSCRIPTS metrics...
+  Done.
+  Getting ALIGNMENT metrics...
+  Done.
+  Getting SPECIFICITY metrics...
+  Done.
+  Getting SENSITIVITY metrics...
+  Done.
+
+Getting SEPARATED report for transcripts...
+
+  2020-04-14 18:49:27
+  Getting TXT report...
+    Getting GENE DATABASE METRICS report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/database_metrics.txt
+    Getting BASIC TRANSCRIPTS METRICS report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/basic_metrics.txt
+    Getting ALIGNMENT METRICS report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/alignment_metrics.txt
+    Getting ALIGNMENT METRICS FOR MISASSEMBLED (CHIMERIC) TRANSCRIPTS report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/misassemblies.txt
+    Getting ASSEMBLY COMPLETENESS (SENSITIVITY) report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/sensitivity.txt
+    Getting ASSEMBLY SPECIFICITY report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/specificity.txt
+  Done.
+
+  2020-04-14 18:49:27
+  Getting DISTRIBUTION report...
+    Drawing cumulative transcript / isoform length plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcript_length.png
+    Drawing cumulative blocks / exons length plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/block_length.png
+    Drawing cumulative transcript aligned fraction plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-aligned.png
+    Drawing cumulative number of blocks / exons per alignment / isoform plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/blocks_per_alignment.png
+    Drawing cumulative alignment multiplicity plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/alignment_multiplicity.png
+    Drawing cumulative substitution errors per alignment plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/mismatch_rate.png
+    Drawing Nx plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/Nx.png
+    Drawing NAx plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/NAx.png
+    Drawing cumulative transcript matched fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-matched.png
+    Drawing cumulative block matched fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-matched_blocks.png
+    Drawing cumulative isoform assembled fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-assembled.png
+    Drawing cumulative exon assembled fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-assembled_exons.png
+    Drawing cumulative isoform covered fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-covered.png
+    Drawing cumulative exon covered fraction histogram...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/x-covered_exons.png
+    Drawing cumulative number of alignments per isoform plot...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/alignments_per_isoform.png
+  Done.
+
+  2020-04-14 18:49:31
+  Getting OTHER reports...
+    Getting Unaligned transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.unaligned.fasta
+    Getting Paralogous transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.paralogs.fasta
+    Getting Misassembled transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.misassembled.fasta
+    Getting Misassembled by BLAT transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.misassembled.blat.fasta
+    Getting Misassembled by BLASTN transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.misassembled.blast.fasta
+    Getting Unique aligned transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.correct.fasta
+    Getting Unannotated transcripts report...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.unannotated.fasta
+    Getting fully assembled isoforms list...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.95%-assembled.list
+    Getting well assembled isoforms list...
+      saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output/transcripts.50%-assembled.list
+  Done.
+
+2020-04-14 18:49:32
+Getting SHORT SUMMARY report...
+  saved to
+    ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/short_report.txt
+    ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/short_report.tex
+    ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/short_report.pdf
+
+THE QUALITY OF TRANSCRIPTOME ASSEMBLY DONE. RESULTS: ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44
+
+Separated assemblies reports are saved to
+  ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/transcripts_output
+  PDF version (tables and plots) saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/short_report.pdf
+  TXT version (tables and plots) saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/short_report.txt
+
+Log saved to ../../tools/rnaQUAST-2.0.1/rnaQUAST_results/results_2020_04_14_18_45_44/logs/rnaQUAST.log
+
+Finished: 2020-04-14 18:49:33
+Elapsed time: 0:03:48.754268
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using rnaQUAST!
+
