@@ -1,0 +1,36 @@
+strict digraph  {
+"v1 (forward)";
+"v2 (forward)";
+"v1 (rev_comp)";
+"v7 (forward)";
+"v3 (forward)";
+"v6 (rev_comp)";
+"v4 (forward)";
+"v2 (rev_comp)";
+"v3 (rev_comp)";
+"v4 (rev_comp)";
+"v5 (forward)";
+"v9 (forward)";
+"v6 (forward)";
+"v7 (rev_comp)";
+"v8 (forward)";
+"v10 (forward)";
+"v9 (rev_comp)";
+"v5 (rev_comp)";
+"v10 (rev_comp)";
+"v8 (rev_comp)";
+"v1 (forward)" -> "v2 (forward)"  [label="len:92,cov:224.6"];
+"v2 (forward)" -> "v6 (rev_comp)"  [label="len:286,cov:123.5"];
+"v2 (forward)" -> "v4 (forward)"  [label="len:4,cov:2.8"];
+"v1 (rev_comp)" -> "v7 (forward)"  [label="len:460,cov:161.9"];
+"v1 (rev_comp)" -> "v3 (forward)"  [label="len:3,cov:9.7"];
+"v2 (rev_comp)" -> "v1 (rev_comp)"  [label="len:92,cov:224.6"];
+"v3 (rev_comp)" -> "v1 (forward)"  [label="len:3,cov:9.7"];
+"v4 (rev_comp)" -> "v2 (rev_comp)"  [label="len:4,cov:2.8"];
+"v5 (forward)" -> "v9 (forward)"  [label="len:12,cov:9.7"];
+"v6 (forward)" -> "v2 (rev_comp)"  [label="len:286,cov:123.5"];
+"v7 (rev_comp)" -> "v1 (forward)"  [label="len:460,cov:161.9"];
+"v8 (forward)" -> "v10 (forward)"  [label="len:82,cov:28.4"];
+"v9 (rev_comp)" -> "v5 (rev_comp)"  [label="len:12,cov:9.7"];
+"v10 (rev_comp)" -> "v8 (rev_comp)"  [label="len:82,cov:28.4"];
+}
